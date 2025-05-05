@@ -31,6 +31,7 @@
 ```diff 
 colorama
 rich
+readline
 ```
 
 ## ⚠️ **Disclaimer**
