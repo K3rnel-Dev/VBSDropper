@@ -34,7 +34,7 @@ class VBSWrapperGenerator:
         self.history_index = 0
 
     def obfuscate_vbs_code(self, code):
-        shift_num = random.randint(4, 7)
+        shift_num = 4
         
         obfuscated = ''.join(chr(ord(v) + shift_num) for v in code)
         
